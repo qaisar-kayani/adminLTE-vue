@@ -1,0 +1,60 @@
+{
+  "name": "vaultspay_frotend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-player": "^1.4.1",
+    "@popperjs/core": "^2.10.2",
+    "@vuelidate/core": "^2.0.0-alpha.25",
+    "@vuelidate/validators": "^2.0.0-alpha.21",
+    "axios": "^0.21.4",
+    "core-js": "^3.18.3",
+    "crypto-js": "^4.1.1",
+    "moment": "^2.29.1",
+    "v-calendar": "^3.0.0-alpha.6",
+    "vue": "^3.0.0",
+    "vue-meta": "^3.0.0-alpha.9",
+    "vue-route-middleware": "^1.0.7",
+    "vue-router": "^4.0.11",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue-ui-preloader": "^1.2.1",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "resolutions": {
+    "eslint-loader": "2.1.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
